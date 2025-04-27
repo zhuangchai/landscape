@@ -534,11 +534,16 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
           - item:
             name: OpenTofu
+            description: >-
+                OpenTofu is an open source infrastructure as code tool that enables users to safely and predictably provision and manage cloud and on-prem infrastructure. It's a community-driven fork of Terraform that maintains backward compatibility while offering enhanced features, stability.
             homepage_url: https://opentofu.org/
             repo_url: https://github.com/opentofu/opentofu
             logo: opentofu.svg
             twitter: https://twitter.com/opentofuorg
-            crunchbase: https://www.crunchbase.com/organization/opentofu
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            project: sandbox
+            extra:
+              accepted: "2025-04-23"
           - item:
             name: OpenYurt
             description: An open platform that extending your native Kubernetes to edge.
@@ -4284,6 +4289,24 @@ landscape:
               clomonitor_name: kubeflow
               ai: true
           - item:
+            name: KubeFleet
+            description: A multi-cluster solution that enables users to effectively manage their applications running in multiple Kubernetes clusters.
+            homepage_url: https://github.com/kubefleet-dev/kubefleet
+            project: sandbox
+            repo_url: https://github.com/kubefleet-dev/kubefleet
+            logo: cncf.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2025-01-21'
+              summary_personas: Platform Engineers, DevOps Engineers, Kubernetes Administrators
+              summary_tags: multi-cluster, kubernetes, orchestration, fleet management
+              summary_use_case: >-
+                KubeFleet provides orchestration and coordination of applications across a fleet of Kubernetes clusters, enabling 
+                users to create resources on a hub cluster and selectively propagate them to managed clusters based on various criteria.
+              summary_business_use_case: >-
+                Streamlines resource management across multiple Kubernetes clusters, enhancing operational efficiency and enabling 
+                teams to effectively manage Kubernetes native configurations at scale, with support for intelligent scheduling and staged rollouts.
+          - item:
             name: Kubernetes
             description: Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications
             homepage_url: https://kubernetes.io/
@@ -5103,7 +5126,7 @@ landscape:
               clomonitor_name: easegress
           - item:
             name: Emissary-Ingress
-            homepage_url: https://www.getambassador.io/
+            homepage_url: https://emissary-ingress.dev/
             project: incubating
             repo_url: https://github.com/emissary-ingress/emissary
             logo: emissary-ingress.svg
@@ -8251,6 +8274,12 @@ landscape:
             logo: cecloud.svg
             crunchbase: https://www.crunchbase.com/organization/china-electronic-system-cloud-data-and-intelligence-technology
           - item:
+            name: China Mobile CMIT PaaS
+            description: CMIT PaaS platform provides core services such as flexible cluster expansion and contraction, disaster tolerance and DevOps.
+            homepage_url: https://it.10086.cn/services/paas/
+            logo: china-mobile-member.svg
+            crunchbase: https://www.crunchbase.com/organization/china-mobile
+          - item:
             name: Cloudboostr
             description: Cloudboostr is a complete Kubernetes stack that allows enterprises to deliver applications faster, better and safer in private and public clouds.
             homepage_url: https://grapeup.com/cloudboostr
@@ -8441,6 +8470,16 @@ landscape:
               dev_stats_url: https://k3s.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#k3slogos
               clomonitor_name: k3s
+              summary_business_use_case: >-
+                K3s is a highly available, certified Kubernetes distribution designed for production
+                workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
+              summary_use_case: >-
+                K3s is packaged as a single <70MB binary that reduces the dependencies and
+                steps needed to install, run and auto-update a production Kubernetes cluster.
+                Both ARM64 and ARMv7 are supported with binaries and multiarch images available for both.
+                K3s works great on something as small as a Raspberry Pi to an AWS a1.4xlarge 32GiB server.
+              summary_release_rate: Roughly every 3-4 months, shortly after each upstream Kubernetes minor release.
+              summary_personas: SREs, Cloud Architects, Platform Engineers, DevOps Engineer, DevOps practitioners, DevSecOps practitioners
           - item:
             name: Kamaji
             description: Build and operate Kubernetes at scale with a fraction of operational burden.
@@ -9053,6 +9092,12 @@ landscape:
             logo: starlingx.svg
             crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
           - item:
+            name: Swisscom Kubernetes Service
+            description: Kubernetes Service is a managed Kubernetes offering in Swisscom’s Private Cloud, based on open-source technology and CNCF tools.
+            homepage_url: https://www.swisscom.ch/en/business/enterprise/offer/cloud/cloudnative/container-services.html
+            logo: swisscom.svg
+            crunchbase: https://www.crunchbase.com/organization/swisscom
+          - item:
             name: Switch Cloud Kubernetes (SCK)
             description: Switch Cloud Kubernetes (SCK) is a Kubernetes as a Service platform for the education, research and innovation landscape in Switzerland.
             homepage_url: https://www.switch.ch/en/competencies/cloud
@@ -9308,6 +9353,9 @@ landscape:
             repo_url: https://github.com/cozystack/cozystack
             logo: cozystack.svg
             project: sandbox
+            extra:
+              accepted: '2025-03-04'
+              dev_stats_url: https://cozystack.devstats.cncf.io/
           - item:
             name: Heroku
             description: Developers, teams, and businesses of all sizes use Heroku to deploy, manage, and scale apps.
@@ -12898,7 +12946,7 @@ landscape:
             logo: sva.svg
             crunchbase: https://www.crunchbase.com/organization/sva
           - item:
-            name: Swisscom Kubernetes Service (KCSP)
+            name: Swisscom (KCSP)
             description: Swisscom’s experienced cloud native experts support Swiss customers end to end on their journey with the Kubernetes ecosystem.
             homepage_url: https://swisscom.com/container
             logo: swisscom.svg
@@ -14612,13 +14660,7 @@ landscape:
             homepage_url: https://www.cloudmt.co.kr
             logo: cloudmate.svg
             crunchbase: https://www.crunchbase.com/organization/cloudmate-1d80
-            joined: '2023-04-01'
-          - item:
-            name: Cloudoor (member)
-            homepage_url: https://cloudoor.com
-            logo: cloudoor.svg
-            crunchbase: https://www.crunchbase.com/organization/cno
-            joined: '2024-08-01'             
+            joined: '2023-04-01'           
           - item:
             name: CloudOps by Aptum (member)
             homepage_url: https://www.cloudops.com/
@@ -14812,12 +14854,6 @@ landscape:
             logo: datenlord.svg
             crunchbase: https://www.crunchbase.com/organization/beijing-datenlord-technology
             joined: '2022-07-01'
-          - item:
-            name: Daugherty Business Solutions (member)
-            homepage_url: https://www.daugherty.com/
-            logo: daugherty.svg
-            crunchbase: https://www.crunchbase.com/organization/daugherty-business-solutions-2
-            joined: '2021-12-01'
           - item:
             name: DBOS (member)
             homepage_url: https://www.dbos.dev
@@ -15338,6 +15374,12 @@ landscape:
             logo: hashicorp.svg
             crunchbase: https://www.crunchbase.com/organization/hashicorp
             joined: '2020-04-01'
+          - item:
+            name: HawkStack (member)
+            homepage_url: https://www.hawkstack.com
+            logo: hawkstack.svg
+            crunchbase: https://www.crunchbase.com/organization/hawkstack-technologies
+            joined: '2025-05-01'            
           - item:
             name: Highlight (member)
             homepage_url: https://www.highlight.io/
@@ -16820,6 +16862,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/speedscale
             joined: '2022-04-01'
           - item:
+            name: Spitzkop (member)
+            homepage_url: https://www.spitzkop.io
+            logo: spitzkop.svg
+            crunchbase: https://www.crunchbase.com/organization/spitzkop
+            joined: '2025-05-01'            
+          - item:
             name: Spotify (member)
             homepage_url: https://open.spotify.com
             logo: spotify-member.svg
@@ -17742,12 +17790,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hps
             joined: '2024-01-01'
           - item:
-            name: HiTRUST (supporter)
-            homepage_url: https://www.hitrust.com/
-            logo: hitrust.svg
-            crunchbase: https://www.crunchbase.com/organization/hitrust-2cd7
-            joined: '2021-01-01'
-          - item:
             name: Huifu Payment Limited (supporter)
             homepage_url: https://www.huifu.com/
             logo: huifu.svg
@@ -18361,6 +18403,9 @@ landscape:
             repo_url: https://github.com/spinframework/spin
             logo: spin.svg
             crunchbase: https://www.crunchbase.com/organization/fermyon-technologies
+            extra:
+              accepted: '2025-01-21'
+              dev_stats_url: https://spin.devstats.cncf.io/
           - item:
             name: vscode-wasm
             homepage_url: https://github.com/microsoft/vscode-wasm
@@ -18956,12 +19001,22 @@ landscape:
           unnamed_organization: true
           homepage_url: https://aibrix.github.io/
         - item:
+          name: Arks
+          description: Arks is an end-to-end framework for managing LLM-based applications within Kubernetes cluster. It provides a robust and extensible infrastructure tailored for deploying, orchestrating, and scaling LLM inference workloads in cloud-native environments.
+          repo_url: https://github.com/scitix/arks
+          logo: ./arks.svg
+          unnamed_organization: true
+          homepage_url: https://www.scitix.ai
+        - item:
           name: KAITO
           description: Kubernetes AI Toolchain Operator (KAITO) simplifies LLM inference, tuning, and RAG workloads on Kubernetes.
           homepage_url: https://kaito-project.netlify.app/
           project: sandbox
           repo_url: https://github.com/kaito-project/kaito
           logo: kaito.svg
+          extra:
+            accepted: '2024-10-17'
+            dev_stats_url: https://kaito.devstats.cncf.io/
         - item:
           name: Kserve
           description: Highly scalable and standards based Model Inference Platform on Kubernetes for Trusted AI
